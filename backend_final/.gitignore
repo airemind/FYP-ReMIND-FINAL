@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+uploads/
+
+logs/
+
+.cache/
+
+alembic/versions/*.pyc

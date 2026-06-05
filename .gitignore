@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+#frontend
+remind/frontend/.env.local
+remind/frontend/.env.development
+remind/frontend/.env.production
+remind/frontend/.env.test
+remind/frontend/yarn.lock
+
+#backend
+remind/backend_final/.env.local
+remind/backend_final/.env.development
+remind/backend_final/.env.production
+remind/backend_final/.env.test
+remind/backend_final/__pycache__/
+remind/backend_final/*.pyc
+remind/backend_final/*.pyo
+remind/backend_final/*.pyd
+remind/backend_final/.mypy_cache/
+remind/backend_final/.pytest_cache/
+remind/backend_final/.coverage
+remind/backend_final/htmlcov/
+remind/backend_final/.vscode/
+remind/backend_final/.idea/
+remind/backend_final/instance/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Project Secrets
+remind/backend_final/app/core/constants.py
+
+# Node.js
+node_modules/
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Python Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generic Temporary Files
+remind/temp/
+remind/tmp/
+
+#logs, cache and results
+remind/logs/
+remind/cache/
+remind/results/

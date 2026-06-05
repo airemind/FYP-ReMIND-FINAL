@@ -1,0 +1,53 @@
+# python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.py
+
+# virtual environment
+
+venv/
+env/
+
+# environment variables
+
+.env
+
+# vector database
+
+*.bin
+*.pkl
+
+# datasets
+text_ai/datasets_local_test/
+text_ai/datasets_local_test/sample_input/
+
+# generated outputs
+
+text_ai/datasets_local_test/sample_output/
+
+# logs
+
+*.log
+
+# ide
+
+.vscode/
+.idea/
+
+# os files
+
+.DS_Store
+Thumbs.db
+
+# cache
+
+.pytest_cache/
+.mypy_cache/
+
+# temp files
+
+temp/
+tmp/
