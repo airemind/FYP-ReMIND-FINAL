@@ -17,10 +17,8 @@
 </p>
 
 <p align="center">
-  <b>Visit at</b>
-  remindio.space
+  <a href="https://remindio.space"><b>Visit at remindio.space</b></a>
 </p>
-
 ---
 
 <p align="center">
